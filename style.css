@@ -1,0 +1,61 @@
+img {
+    margin: 5px;
+
+}
+
+#index-links {
+    border-width: 2px;
+    border-color: blue;
+    border-style: solid;
+    padding: 3px;
+    font-size: 1.5em;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+#newsletter {
+    margin: auto;
+    width: 30%;
+    border: 3px solid black;
+    padding: 10px;
+    text-align: center;
+    background-image: url(sunrise.jpeg);
+    font-weight: bold;
+}
+
+.info {
+    font-family: helvetica;
+    text-align: center;
+}
+
+.tour-dates {
+    font-size: 1.5em;
+    font-style: italic;
+    font-family: georgia;
+}
+
+.home {
+    margin: auto;
+    width: 20%;
+    border: 2px solid black;
+    padding: 5px;
+   border-radius: 10px;
+}
+
+a:link {
+    color:blue;
+}
+
+a:visited {
+    color: cadetblue;
+}
+
+a:hover {
+    color: gold;
+}
+
+@media screen and (max-width: 500px) {
+    main {
+        font-size: 0.8em;}
+    }
