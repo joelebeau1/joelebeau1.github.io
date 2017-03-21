@@ -1,9 +1,10 @@
 console.log("The script is running!");
 
 function addRedBorder(event) {
-    event.target.style.border = "3px solid red";
+    console.log(event);
+    index.style.border = "3px solid red";
 }
 
-var info = document.getElementsByClass("info");
-photo.addEventListener("click", addRedBorder);
+var index = document.getElementsById("index-links");
+index.addEventListener("click", addRedBorder);
 
